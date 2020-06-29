@@ -3,7 +3,7 @@ This is the Natural Language Processing repository of IvLabs and contains implem
 Further, we have also included a rough roadmap for enthusiasts with basic knowledge of Machine/Deep Learning.
 
 We have implemented and compared the following architectures:
-- [ ] Character Level RNN (Char RNN)
+- [ ] [Character Level RNN (Char RNN)](/CharRNN)
     - [x] From scratch
     - [ ] Vanilla RNN
     - [ ] LSTM
