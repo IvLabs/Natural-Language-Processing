@@ -1,5 +1,5 @@
 # Natural Language Processing
-This repository is the Natural Language Processing repository of IvLabs and contains implementation of various architectures, starting from "Character Level RNN(s)" built from scratch, up to and including the almighty "Transformer" architecture.
+This is the Natural Language Processing repository of IvLabs and contains implementation of various architectures, starting from "Character Level RNN(s)" built from scratch, up to and including the almighty "Transformer" architecture.
 Further, we have also included a rough roadmap for enthusiasts with basic knowledge of Machine/Deep Learning.
 
 We have implemented and compared the following architectures:
