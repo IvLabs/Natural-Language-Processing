@@ -9,8 +9,8 @@ All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/
 | Training Set       |  98% (1506/1536)   |
 | Validation Set     |    2% (30/1536)    |
 | Number of Epochs   |         50         |
-| Learning Rate      |  5x10<sup>-4</sup>   |
-| Hidden Dimensions  |         32         |
+| Learning Rate      | 5x10<sup>-4</sup>  |
+| Hidden Dimensions  |         64         |
 | Loss Function      | Cross Entropy Loss |
 | Optimizer          |       AdamW        |
 
