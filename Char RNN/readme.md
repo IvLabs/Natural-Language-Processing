@@ -4,15 +4,15 @@ The fundamental basis of any language is its alphabet. Hence character level RNN
 All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/Natural-Language-Processing/raw/master/Datasets/Dino_Names.txt) dataset which contains 1536 dinosaur names. Data splitting and training parameters are mentioned below.
 
 
-| Training Parameter |       Value        |
-| ------------------ |:------------------:|
-| Training Set       |  98% (1506/1536)   |
-| Validation Set     |    2% (30/1536)    |
-| Number of Epochs   |         50         |
-| Learning Rate      | 2.5x10<sup>-4</sup>|
-| Hidden Dimensions  |         64         |
-| Loss Function      | Cross Entropy Loss |
-| Optimizer          |       AdamW        |
+| Parameter         |        Value        |
+| ----------------- |:-------------------:|
+| Training Set      |   98% (1506/1536)   |
+| Validation Set    |    2% (30/1536)     |
+| Number of Epochs  |         50          |
+| Learning Rate     | 2.5x10<sup>-4</sup> |
+| Hidden Dimensions |         64          |
+| Loss Function     | Cross Entropy Loss  |
+| Optimizer         |        AdamW        |
 
 ## General Pipeline
 1. Every character in the vocabulary(including the delimiter ".") is embedded using One-Hot vector representation.
