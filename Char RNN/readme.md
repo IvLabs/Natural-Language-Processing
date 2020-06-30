@@ -23,7 +23,6 @@ All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/
 6. The cumilitive training and validation losses for each epoch are recorded and plotted.
 
 <br />
-<br />
 
 ## Char RNN from Scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N01IvqI0yxK1CAKi0cfwRTcgvR-_YukL?authuser=1#forceEdit=true&sandboxMode=true)
 This notebook implements a vanilla RNN, right from scratch using only basic linear layers and activation functions. This notebook aims at deepening the understanding and general implementation paradigm for recurrent nerual networks. It covers every step, right from data preprocessing to sampling from the trained model, using only basic Python and PyTorch functionalities.
@@ -47,7 +46,6 @@ Below is a table, summarising the number of parameters and the convergent loss a
   | GRU              |            19611            |    1.6615     |     1.6071      |
 
 
-<br />
 <br />
 
 ## Plots
