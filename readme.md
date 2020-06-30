@@ -22,4 +22,4 @@ We have also implemented the following papers:
 - [ ] [Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122)
 - [ ] [Attention Is All You Need (modified)](https://arxiv.org/abs/1706.03762)
 
-The pending tasks and resources for studying and understading the required concepts will be added soon.
+The pending tasks and resources for studying and understading the required concepts will be added soon
