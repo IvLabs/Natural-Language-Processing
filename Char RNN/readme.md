@@ -44,3 +44,10 @@ Below is a table, summarising the number of parameters and the convergent loss a
 | LSTM             |            25563            |    1.6779     |     1.6143      |
 | GRU              |            19611            |    1.6615     |     1.6071      |
 
+<center>
+
+![RNN Scratch](https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_Scratch.jpeg?raw=true) ![Vanilla RNN](https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_RNN.jpeg?raw=true)
+
+![LSTM](https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_LSTM.jpeg?raw=true) ![GRU](https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_GRU.jpeg?raw=true)
+
+</center>
