@@ -36,14 +36,14 @@ The final notebook in the comparison, uses Gated Recurrent Units (GRU) which are
 
 Below is a table, summarising the number of parameters and the convergent loss achieved by each model.
 
-
-| Architecture     | No. of Learnable Parameters | Training Loss | Validation Loss |
-| ---------------- |:---------------------------:|:-------------:|:---------------:|
-| RNN from scratch |            10856            |    1.8781     |     1.7743      |
-| Vanilla RNN      |            7707             |    1.7567     |     1.6902      |
-| LSTM             |            25563            |    1.6779     |     1.6143      |
-| GRU              |            19611            |    1.6615     |     1.6071      |
-
+<p align="center">
+  | Architecture     | No. of Learnable Parameters | Training Loss | Validation Loss |
+  | ---------------- |:---------------------------:|:-------------:|:---------------:|
+  | RNN from scratch |            10856            |    1.8781     |     1.7743      |
+  | Vanilla RNN      |            7707             |    1.7567     |     1.6902      |
+  | LSTM             |            25563            |    1.6779     |     1.6143      |
+  | GRU              |            19611            |    1.6615     |     1.6071      |
+</p>
 
 <p align="center">
   <img src="https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_Scratch.jpeg?raw=true"/>
