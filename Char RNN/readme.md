@@ -43,10 +43,11 @@ Below is a table, summarising the number of parameters and the convergent loss a
   | LSTM             |            25563            |    1.6779     |     1.6143      |
   | GRU              |            19611            |    1.6615     |     1.6071      |
 
+## Plots
 <p align="center">
-  <img src="https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_Scratch.jpeg?raw=true"/>
-  <img src="https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_RNN.jpeg?raw=true"/> 
-  <img src="https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_LSTM.jpeg?raw=true"/>
-  <img src="https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_GRU.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_Scratch.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_RNN.jpeg?raw=true"/> 
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_LSTM.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_GRU.jpeg?raw=true"/>
 </p>
 
