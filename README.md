@@ -23,3 +23,9 @@ We have also implemented the following papers:
 - [ ] [Attention Is All You Need (modified)](https://arxiv.org/abs/1706.03762)
 
 The pending tasks and resources for studying and understading the required concepts will be added soon.
+
+<br />
+
+### Contributors:
+* Rishika Bhagwatkar
+* Khurshed P. Fitter
