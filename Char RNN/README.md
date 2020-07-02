@@ -14,6 +14,8 @@ All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/
 | Loss Function     | Cross Entropy Loss  |
 | Optimizer         |        AdamW        |
 
+<br />
+
 ## General Pipeline
 1. Every character in the vocabulary(including the delimiter ".") is embedded using One-Hot vector representation.
 2. A sequence of embeddings is fed to the model. This typically contains embeddings of all the characters of a word, except the delimiter.
