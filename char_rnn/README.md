@@ -1,7 +1,7 @@
 # Character Level RNN (Char RNN)
 The fundamental basis of any language is its alphabet. Hence character level RNN(s) are the most basic form of recurrent neural networks and we have implemented them from scratch. Also, we have used the RNN, LSTM and GRU layers available in PyTorch for comparison.
 
-All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/Natural-Language-Processing/raw/master/Datasets/Dino_Names.txt) dataset which contains 1536 dinosaur names. Data splitting and training parameters are mentioned below.
+All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/Natural-Language-Processing/raw/master/datasets/Dino_Names.txt) dataset which contains 1536 dinosaur names. Data splitting and training parameters are mentioned below.
 
 
 | Parameter         |        Value        |
@@ -56,9 +56,9 @@ Below is a table, summarising the number of parameters and the convergent loss a
 
 ## Plots
 <p align="center">
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_Scratch.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_RNN.jpeg?raw=true"/> 
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_LSTM.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/Plots/Dino_Names_GRU.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_Scratch.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_RNN.jpeg?raw=true"/> 
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_LSTM.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_GRU.jpeg?raw=true"/>
 </p>
 
