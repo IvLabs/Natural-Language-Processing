@@ -66,4 +66,4 @@ Below is a table, summarising the number of parameters and the convergent loss a
 <br>
 
 ### Note:
-In the notebooks (all excpet RNN from scratch), a parameter named "NUM_LAYERS" can be changed to change the number of stacked layers in the model. However, keeping in mind the miniscule amount of data available and the meagrely small objective at hand, using multi-layer architectures seems futile as the trade-off between performance and required computation, tilts more towards the computationally heavy side.
+In the notebooks (all except RNN from scratch), a parameter named "NUM_LAYERS" can be changed to change the number of stacked layers in the model. However, keeping in mind the miniscule amount of data available and the meagrely small objective at hand, using multi-layer architectures seems futile as the trade-off between performance and required computation, tilts more towards the computationally heavy side.
