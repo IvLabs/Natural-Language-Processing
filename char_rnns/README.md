@@ -4,17 +4,18 @@ The fundamental basis of any language is its alphabet. Hence character level RNN
 All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/Natural-Language-Processing/raw/master/datasets/Dino_Names.txt) dataset which contains 1536 dinosaur names. Data splitting and training parameters are mentioned below.
 
 
-| Parameter         |        Value        |
-| ----------------- |:-------------------:|
-| Training Set      |   98% (1506/1536)   |
-| Validation Set    |    2% (30/1536)     |
-| Number of Epochs  |         50          |
-| Learning Rate     | 2.5x10<sup>-4</sup> |
-| Hidden Dimensions |         64          |
-| Loss Function     | Cross Entropy Loss  |
-| Optimizer         |        AdamW        |
+| Parameter         |       Value        |
+| ----------------- |:------------------:|
+| Training Set      |  95% (1460/1536)   |
+| Testing Set       |    3% (46/1536)    |
+| Validation Set    |    2% (30/1536)    |
+| Number of Epochs  |         40         |
+| Learning Rate     | 4x10<sup>-4</sup>  |
+| Hidden Dimensions |         64         |
+| Loss Function     | Cross Entropy Loss |
+| Optimizer         |       AdamW        |
 
-<br />
+<br>
 
 ## General Pipeline
 1. Every character in the vocabulary(including the delimiter ".") is embedded using One-Hot vector representation.
@@ -24,7 +25,7 @@ All the models are  trained on the [*Dino_Names.txt*](https://github.com/IvLabs/
 5. This is repeated for every word in the corpus.
 6. The cumilitive training and validation losses for each epoch are recorded and plotted.
 
-<br />
+<br>
 
 ## Architectures:
 ### 1. Char RNN from Scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1N01IvqI0yxK1CAKi0cfwRTcgvR-_YukL?authuser=1#forceEdit=true&sandboxMode=true)
@@ -39,26 +40,30 @@ In this notebook, we implement a single layered Long Short Term Memory (LSTM) ne
 ### 4. Char RNN using GRU Layer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KHngbDPUXEpSyl1HfbIFeNwkun5ssZsK?authuser=1#scrollTo=aIQUjAXtmFRD&forceEdit=true&sandboxMode=true)
 The final notebook in the comparison, uses Gated Recurrent Units (GRU) which are a more computationally efficient version of the LSTM units. The number of trainable parameters is almost 2.5 times that of the equivalent Vanilla RNN, but the performance is often at par with the LSTM network. This makes them a friendlier choice for large scale deployment.
 
-<br />
+<br>
 
 ## Summary
 Below is a table, summarising the number of parameters and the convergent loss achieved by each model.
 
-  | Architecture     | No. of Learnable Parameters | Training Loss | Validation Loss |
-  | ---------------- |:---------------------------:|:-------------:|:---------------:|
-  | RNN from scratch |            10856            |    1.8781     |     1.7743      |
-  | Vanilla RNN      |            7707             |    1.7567     |     1.6902      |
-  | LSTM             |            25563            |    1.6779     |     1.6143      |
-  | GRU              |            19611            |    1.6615     |     1.6071      |
+  | Architecture     | No. of Learnable Parameters | Training Loss | Validation Loss | Test Loss |
+  | ---------------- |:---------------------------:|:-------------:|:---------------:| :-------: |
+  | RNN from scratch |            10856            |    2.0110     |     1.8492      |  1.7026   |
+  | Vanilla RNN      |            7707             |    1.8576     |     1.6835      |  1.5294   |
+  | LSTM             |            25563            |    1.7426     |     1.6065      |  1.4923   |
+  | GRU              |            19611            |    1.7202     |     1.5082      |  1.3935   |
 
 
-<br />
+<br>
 
 ## Plots
 <p align="center">
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_Scratch.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_RNN.jpeg?raw=true"/> 
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_LSTM.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/plots/Dino_Names_GRU.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/char_rnns/plots/Dino_Names_Scratch.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/char_rnns/plots/Dino_Names_RNN.jpeg?raw=true"/> 
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/char_rnns/plots/Dino_Names_LSTM.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/char_rnns/plots/Dino_Names_GRU.jpeg?raw=true"/>
 </p>
 
+<br>
+
+### Note:
+In the notebooks (all excpet RNN from scratch), a parameter named "NUM_LAYERS" can be changed to change the number of stacked layers in the model. However, keeping in mind the miniscule amount of data available and the meagrely small objective at hand, using multi-layer architectures seems futile as the trade-off between performance and required computation, tilts more towards the computationally heavy side.
