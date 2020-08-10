@@ -28,4 +28,4 @@ The pending tasks and resources for studying and understading the required conce
 
 ### Contributors:
 * Rishika Bhagwatkar
-* Khurshed Fitter
+* Khurshed P. Fitter
