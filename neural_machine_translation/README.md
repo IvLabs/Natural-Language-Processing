@@ -48,8 +48,8 @@ Below is a table, summarising the number of parameters and the BLEU scores achie
 
 ## Plots
 <p align="center">
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plots/Seq2Seq.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plots/Seq2Seq_with_Attention.jpeg?raw=true"/> 
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plots/Conv_Seq2Seq.jpeg?raw=true"/>
-  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plots/Transformer.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plot/Seq2Seq.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plot/Seq2Seq_with_Attention.jpeg?raw=true"/> 
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plot/Conv_Seq2Seq.jpeg?raw=true"/>
+  <img src = "https://github.com/IvLabs/Natural-Language-Processing/blob/master/neural_machine_translation/plot/Transformer.jpeg?raw=true"/>
 </p>
