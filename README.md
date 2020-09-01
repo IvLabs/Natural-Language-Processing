@@ -13,7 +13,7 @@ We have implemented and compared the following architectures:
     - [ ] LSTM
     - [ ] GRU
 
-- [x] [Neural Machine Translation](neural_machine_translation)
+- [x] [Neural Machine Translation](neural_machine_translation)\
     For Neural Machine Translation, we have implemented the following papers.
     - [x] [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
     - [x] [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
