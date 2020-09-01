@@ -37,12 +37,14 @@ Below is a table, summarising the number of parameters and the BLEU scores achie
 
 | Architecture                        | No. of Trainable Parameters | BLEU Score |
 | ----------------------------------- |:---------------------------:|:----------:|
-| Sequence to Sequence                |         13,899,013          |   20.03    |
+| Sequence to Sequence                |         13,899,013          |   18.94    |
 | Sequence to Sequence with Attention |         20,518,917          |   31.24    |
 | Convolutional Sequence to Sequence  |         37,351,685          |   36.53    |
 | Attention Is All You Need           |          9,038,853          |   37.50    |
 
-<u>**Note:**</u> The research paper notes for the above mentioned papers can be found [here](https://github.com/IvLabs/ResearchPaperNotes/tree/master/natural_language_processing).
+<ins>**Note:**</ins>
+1. The above BLEU scores may vary slightly upon training the models (even with fixed SEED).
+2. The research paper notes for the above mentioned papers can be found [here](https://github.com/IvLabs/ResearchPaperNotes/tree/master/natural_language_processing).
 
 ## Plots
 <p align="center">
