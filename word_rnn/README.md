@@ -57,11 +57,11 @@ RNN Loss function
 
 
 
-**Results** - 
+## __ Results __ - 
 
-![](https://github.com/AjinkyaDeshpande39/Natural-Language-Processing/blob/master/word_rnn/ezgif.com-gif-maker.gif)
+![Alt Text](https://github.com/AjinkyaDeshpande39/Natural-Language-Processing/blob/master/word_rnn/ezgif.com-gif-maker.gif)
 
-## LSTM
+## LSTM 
 
 1. testing2('“ i tell you , we’re going to win that')
 - “ i tell you , we’re going to win that in the summer - year waffle , something that he is to die — dumbledore says nothing about it , i’ll therefore nicolas ‘ rude with all with a fifty - points - points points that year , you were steamrollered ! ”
