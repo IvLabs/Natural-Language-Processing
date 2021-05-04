@@ -1,4 +1,4 @@
-# Paragraph generation (Language modelling)
+# Paragraph generation (Language modeling)
 
 Model was trained over Book 1 - Philosopher's stone.txt which is 1st edition of Harry Potter franchise.
 
@@ -113,3 +113,7 @@ RNN Loss function
 
 5. testing2('hermione took out a list of subjects and titles she had')
 - 'hermione took out a list of subjects and titles she had to say .'
+
+
+## Resources :
+https://youtu.be/iWea12EAu6U CS224N course over NLP.
