@@ -8,10 +8,11 @@ We have implemented and compared the following architectures:
     - [x] Vanilla RNN
     - [x] LSTM
     - [x] GRU
-- [ ] Language Models
-    - [ ] Vanilla RNN
-    - [ ] LSTM
-    - [ ] GRU
+
+- [x] [Language Models (Word RNN)](word_rnn)
+    - [x] Vanilla RNN
+    - [x] LSTM
+    - [x] GRU
 
 - [x] [Neural Machine Translation](neural_machine_translation)\
     For Neural Machine Translation, we have implemented the following papers.
