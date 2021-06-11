@@ -28,4 +28,4 @@ We have implemented and compared the following architectures:
 ### Contributors:
 * [Rishika Bhagwatkar](https://https//github.com/rishika2110)
 * [Khurshed P. Fitter](https://https//github.com/GlazeDonuts)
-
+* [Aneesh A. Shetye](https://https//github.com/aneesh-shetye)
