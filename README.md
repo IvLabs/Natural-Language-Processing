@@ -30,3 +30,4 @@ We have implemented and compared the following architectures:
 * [Khurshed P. Fitter](https://https//github.com/GlazeDonuts)
 * [Aneesh A. Shetye](https://https//github.com/aneesh-shetye)
 * [Diksha Bagade](https://github.com/Diksha942)
+* [Kshitij Ambilduke](https://github.com/Kshitij-Ambilduke)
