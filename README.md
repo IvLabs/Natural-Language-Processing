@@ -24,6 +24,7 @@ We have implemented and compared the following architectures:
 *The pending tasks and resources for studying and understading the required concepts will be added soon.*
 
 <br />
+<hr />
 
 ### Contributors:
 * [Rishika Bhagwatkar](https://https//github.com/rishika2110)
