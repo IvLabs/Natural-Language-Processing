@@ -33,3 +33,4 @@ We have implemented and compared the following architectures:
 * [Diksha Bagade](https://github.com/Diksha942)
 * [Kshitij Ambilduke](https://github.com/Kshitij-Ambilduke)
 * [Prayash Swain](https://github.com/SprayashB)
+* [Thanmay Jayakumar](https://github.com/ThanmayJ)
