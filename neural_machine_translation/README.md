@@ -1,6 +1,8 @@
 # Neural Machine Translation
 
-Traditionally, machine translation was performed using statistical methods and was known as Statistical Machine Translation (SMT). However, like most of the statistical paradimgs, SMT too had large computational and memory overheads. This section contains implementations of papers presenting novel architectures for Neural Machine Translation (NMT).
+The machine translation task was traditionally performed using statistical methods. However, like most statistical paradigms, this Statistical Machine Translation (SMT) had large computational and memory overheads.
+
+With the popularization of neural networks and deep learning, heavy research into Neural Machine Translation (NMT) and its successful employment has largely replaced SMT. This section contains implementations of papers that introduced some of those ground-breaking architectures in NMT.
 
 All the models were trained on the [Multi30k](https://arxiv.org/abs/1605.00459) dataset which contains roughly 30 thousand English, German and French sentences, each sentence being 10-20 words long. We have trained and evaluated our models for translation from German to English.
 
